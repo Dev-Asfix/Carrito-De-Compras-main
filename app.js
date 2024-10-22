@@ -58,7 +58,7 @@ function addEvents() {
     addCart_btns.forEach((btn) => {
         btn.addEventListener("click", handle_addCartItem);
     });
-}
+} 
 
 //COMPRAR ORDEN
 const buy_btn = document.querySelector(".btn-buy");
